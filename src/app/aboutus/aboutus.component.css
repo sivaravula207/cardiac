@@ -1,0 +1,39 @@
+/* .bgclr{
+    background-color: aquamarine;
+} */
+/*.abtext{ */
+    /* font-weigsht: bold; */
+    /* font-size: 30px; */
+    /* color: #005AAB; */
+    /* border-bottom: solid #005AAB 3px */
+/*} */
+.borline{
+    border-top: solid #3399ff 3px;
+}
+.abdiv{
+    padding-top: 40px;
+}
+.container{
+    text-align: justify;
+}
+
+.abcnt p{
+    /* font-size: 14px; */
+}
+.abtus{
+    padding-top: 50px;
+    color: #3399ff!important;
+    font-size: 18px
+}
+h1, h2, h3, h4, h5, h6 {
+    /* font-size: 15px; */
+    font-weight: 600;
+}
+
+.toppadd{
+    padding-top: 50px;
+}
+.quickSt{
+    /* font-size: larger; */
+    font-weight: bold;
+}

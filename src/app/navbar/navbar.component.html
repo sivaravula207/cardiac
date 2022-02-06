@@ -1,0 +1,62 @@
+<div class="container-fluid remove-all-margin">
+  <div class="hgt">
+    <div class="anchortag"><a routerLink="/home">Journal of Cardiac Interventions</a></div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light hgt1">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+     data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav col-lg-12">
+        
+        <li class="nav-item dropdown col-lg-2 ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Journal Overview
+          </a>
+          <div class="dropdown-menu clra" aria-labelledby="navbarDropdownMenuLink">
+            <!-- <a class="dropdown-item" href="#" (click)="toggleNavbar()">About Us</a> -->
+            <div class="row">
+            <div class="col-lg-6">
+
+              <a class="dropdown-item" routerLink="/aimandscope" (click)="toggleNavbar()">Aim and Scope</a>
+              <a class="dropdown-item" routerLink="/editorialboard" (click)="toggleNavbar()">Editorial Board</a>
+              <a class="dropdown-item" routerLink="/authors-index" (click)="toggleNavbar()">Authors Index</a>
+              <a class="dropdown-item" routerLink="/indexing" (click)="toggleNavbar()">Indexing and Abstracting</a>
+              <a class="dropdown-item" routerLink="/articlesinpress" (click)="toggleNavbar()">Articles in Press</a>
+              
+            </div>
+            <div class="col-lg-6">
+
+              <a class="dropdown-item" routerLink="/publication-ethics" (click)="toggleNavbar()">Publication Ethics</a>
+              <a class="dropdown-item" routerLink="/apc" (click)="toggleNavbar()">Article Processing Charges</a>
+              <a class="dropdown-item" routerLink="/openaccesspolicy" (click)="toggleNavbar()">Open Access Policy</a>
+              <a class="dropdown-item" routerLink="/peerreviewpolicy" (click)="toggleNavbar()">Peer Review Policy</a>
+            </div>
+          </div>
+          </div>
+        </li>
+        <li class="nav-item col-lg-2">
+          <a class="nav-link" routerLink="/authors" routerLinkActive = "active" (click)="toggleNavbar()">For Authors</a>
+        </li>
+        <li class="nav-item col-lg-2">
+          <a class="nav-link" routerLink="/reviewers" routerLinkActive = "active" (click)="toggleNavbar()">For Reviewers</a>
+        </li>
+        <li class="nav-item col-lg-2">
+          <a class="nav-link" routerLink="/editors" routerLinkActive = "active" (click)="toggleNavbar()">For Editors</a>
+        </li>
+        <li class="nav-item col-lg-2">
+          <a class="nav-link" routerLink="/archive" routerLinkActive = "active" (click)="toggleNavbar()">Archive</a>
+        </li>
+        <li class="nav-item col-lg-2">
+          <a class="nav-link" routerLink="/specialissue" routerLinkActive = "active" (click)="toggleNavbar()">Special Issues</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

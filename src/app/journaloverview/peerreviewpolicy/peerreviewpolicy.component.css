@@ -1,0 +1,18 @@
+.modeldiv{
+    height: 500px;
+    text-align: center;
+}
+.padd{
+    padding-top: 50px;
+    font-size: 25px;
+    color: brown;
+}
+.btnsty{
+    padding-top: 20px;
+}
+.btnsty a{
+    color: whitesmoke;
+}
+.padd1{
+    padding-top: 20px;
+}

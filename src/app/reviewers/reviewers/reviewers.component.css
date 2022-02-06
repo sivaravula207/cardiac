@@ -1,0 +1,20 @@
+
+    .cent{
+        text-align: center;
+    }
+    table:td{
+        text-align: center;
+    }
+    .all-padd1{
+        padding-top: 40px;
+    }
+    .all-padd1 p{
+        text-align: justify;
+    }
+    .quickSt{
+        font-size: larger;
+        font-weight: bold;
+    }
+    .tab1{
+        padding-top: 60px;
+    }

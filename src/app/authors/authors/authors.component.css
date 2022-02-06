@@ -1,0 +1,46 @@
+.cent{
+    text-align: center;
+}
+table:td{
+    text-align: center;
+}
+.all-padd{
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-top: 70px;
+}
+.all-padd1{
+    padding-top: 40px;
+}
+.all-padd1 p{
+    text-align: justify;
+}
+.bgclr{
+    background-color: rgb(200, 150, 150);
+}
+.bgclr2{
+    background-color: #c2d1c6;
+}
+.bgclr3{
+    background-color: #b8adde;
+}
+
+@media (min-width: 991.5px){
+
+.safFFF {
+    /* position: fixed; */
+    top: 150px;
+    padding-left: 35px;
+    padding-top: 60px;
+
+    width: 290px;
+}
+}
+
+.tab1{
+    padding-top: 60px;
+}
+.quickSt{
+    font-size: larger;
+    font-weight: bold;
+}
