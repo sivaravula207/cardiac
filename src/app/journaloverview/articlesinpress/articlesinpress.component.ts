@@ -123,6 +123,27 @@ export class ArticlesinpressComponent implements OnInit {
     myocardial ischemia in non-obstructive coronary arteries, and it is so called due to its resemblance of the last 
     Greek alphabet.</p>`
   },
+  {
+    'articleId': 7,
+    'articleTitle': 'Novel Treatment of Iatrogenic Annular Rupture and Cardiac Tamponade during TAVR',
+    'articleAbstract': `<p>In this case presentation, we discuss a novel therapy to treat cardiac tamponade caused by annular rupture
+    during a transcatheter aortic valve replacement (TAVR) procedure. The patient underwent successful
+    percutaneous implantation of an Edwards 29-mm Sapien 3 Ultra valve after which a substantial drop in blood
+    pressure was noted. Intraprocedural post-implant aortic angiogram showed an iatrogenic annular rupture
+    (IAR) outside the non-coronary cusp with transthoracic echocardiography confirmation of an expanding
+    pericardial effusion. Immediate pericardiocentesis was performed, however, extraction of sanguineous
+    product and hemodynamic instability continued. At this time, injectable gelatin thrombin hemostatic matrix
+    was delivered to the annular rupture site at the non-coronary cusp side of the left ventricular outflow tract.
+    Shortly after, there was stabilization of the pericardial effusion with improvement in hemodynamics. The
+    patient was discharged home safely on hospital day four and continued to do well in follow up appointments.</p>`
+  },
+  {
+    'articleId': 8,
+    'articleTitle': 'Massive Functional Tricuspid Regurgitation with Right Heart Failure Percutaneously Treated with Triclip System and ECMO Assistance. Two Case Reports',
+    'articleAbstract': `<p>In this report, we present the cases of two elderly patients with massive tricuspid regurgitation (TR) and
+    severe right ventricular (RV) dysfunction causing right heart failure treated with percutaneous TriClip system
+    assisted with veno-arterial extracorporeal membrane oxygenation (VA-ECMO).</p>`
+  },
 ]
   articleContent: any;
   constructor() { }
