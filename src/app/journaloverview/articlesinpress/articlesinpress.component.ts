@@ -144,6 +144,16 @@ export class ArticlesinpressComponent implements OnInit {
     severe right ventricular (RV) dysfunction causing right heart failure treated with percutaneous TriClip system
     assisted with veno-arterial extracorporeal membrane oxygenation (VA-ECMO).</p>`
   },
+  {
+    'articleId': 9,
+    'articleTitle': 'Percutaneous Closure of Septal Mitral Paravalvular Leakage in A Young Patient',
+    'articleAbstract': `<p>Paravalvular leaks are a well-recognized major complication after prosthetic valves implantation, it affects
+    from 6% to 15% of patients after valve replacement. Percutaneous closure is an alternative to solve this
+    problem, it has shown some advantages such a lower incidence of complications with a success rate of 87%,
+    this case demonstrates the feasibility of an uncomonn approach using a single right femoral venous access
+    and a deflectable sheath to perform a transseptal puncture in order to place a purpose specific occluder for
+    clossing a paravalvular leak in a mitral mechanic prothesic valve implanted via open thoracotomy.</p>`
+  },
 ]
   articleContent: any;
   constructor() { }
