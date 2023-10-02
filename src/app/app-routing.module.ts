@@ -22,7 +22,7 @@ import { ArticlesinpressComponent } from './journaloverview/articlesinpress/arti
 const routes: Routes = [
   {path: "", component: AboutusComponent},
   {path: "home", component: AboutusComponent},
-  {path:"archive", component: ArchiveComponent},
+  // {path:"archive", component: ArchiveComponent},
   {path: "submit", component: SubmitComponent},
   {path:"authors", component: AuthorsComponent},
   {path: "reviewers", component: ReviewersComponent},
@@ -37,6 +37,11 @@ const routes: Routes = [
   {path: "openaccesspolicy", component: OpenaccesspolicyComponent},
   {path: "peerreviewpolicy", component: PeerreviewpolicyComponent},
   {path: "articlesinpress", component: ArticlesinpressComponent},
+  {path: "articlesinpress", component: ArticlesinpressComponent},
+  {
+    path: 'archive',
+    loadChildren: () => import('./articlesarchive/articlesarchive.module').then(m => m.ArticlesarchiveModule)
+  },
   {path: "**", component: AboutusComponent},
   {path: "404", component: AboutusComponent}
 

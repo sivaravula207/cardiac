@@ -1,52 +1,53 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-articlesinpress',
-  templateUrl: './articlesinpress.component.html',
-  styleUrls: ['./articlesinpress.component.css']
+  selector: 'app-volume1issue1',
+  templateUrl: './volume1issue1.component.html',
+  styleUrls: ['./volume1issue1.component.css']
 })
-export class ArticlesinpressComponent implements OnInit {
+export class Volume1issue1Component implements OnInit {
 
   articlesarray = [
     {
     'articleId': 1,
-    'articleTitle': `A Case Series of Proliferative Deterioration in Adjacent Mitral
-    Valve Tissue after Mitral Transcatheter Edge-to-Edge Repair
-    in Patients with Degenerative Mitral Regurgitation`,
-    'articleAbstract': `<p>There has been growing success in treating patients with functional mitral regurgitation (FMR) due to the
-    expanding role of mitral transcatheter edge-to-edge repair (mTEER) systems. While similar success exists for
-    mTEER in higher, or greater, surgical risk patient with degenerative MR (DMR), clinical and technical markers
-    of success have not reached the levels seen in FMR patients. In this case series we will examine cases of DMR
-    treated with the commercially available MitraClip system who later developed recurrence of 3+, or greater,
-    mitral regurgitation (MR).</p>
-    <p>We present three cases of recurrent DMR and postulate the continued proliferation of degeneration can
-    be attributed to the flagpole effect. This effect derives its name from the deterioration found at weak points
-    along a flag as it connects to the flagpole tethered on one side. The damage is caused by the chronic effects of
-    adjacent pressure loading placed by excess forces at the weak points of the flag in its attachment to the fixed
-    flagpole. In the transcatheter mitral space, we propose the Waggoner-Flagpole Effect (WFE) as an etiology for
-    proliferation of degeneration in certain DMR patients post mTEER by tethering adjacent degenerative mitral
-    segments with a fixation point causing excess loading pressure on neighboring diseased mitral tissue leading
-    to premature and accelerated tissue breakdown.
+    'articleTitle': 'Alternative Support Strategy for High-Risk, Elective Percutaneous Coronary Intervention: Venoarterial Extracorporeal Membrane Oxygenation in Advanced Pulmonary Hypertension and Right Ventricular Dysfunction',
+    'articleAbstract': `<p><strong>Objectives:</strong> We report our initial experience utilizing venoarterial extracorporeal membrane oxygenation
+    (VA-ECMO) in a patient undergoing high-risk percutaneous coronary intervention (HR-PCI) and review the
+    literature for outcomes data with prophylactic use of VA-ECMO in this setting.
     </p>
-    <p><strong>Keywords:</strong> Mitral transcatheter edge-to-edge repair . MitraClip . Waggoner-Flagpole Effect . Degenerative
-    mitral regurgitation . Mitral regurgitation.</p>`
+    <p><strong>Background:</strong> VA-ECMO is most commonly used in patients in cardiogenic shock and status-post cardiac
+    arrest. Data on use of VA-ECMO for elective, HR-PCI is limited.</p>
+    <p><strong>Case description:</strong> A 77-year-old frail Caucasian male with a complex medical history to include COPD with
+    baseline supplementary oxygen use, pulmonary hypertension, type 2 diabetes mellitus, and hypertension
+    underwent treadmill stress testing due to worsening dyspnea on exertion. After 2 minutes, he developed
+    profound hypotension along with diffuse ST depressions on ECG.</p>
+    <p><strong>Results:</strong> Following admission for urgent invasive coronary angiography, the patient was found to have severe
+    multivessel obstructive coronary artery disease. After a multidisciplinary discussion, he was not deemed
+    to be a surgical candidate. Due to recurrent admissions for acute decompensated heart failure and non-STelevation myocardial infarction (NSTEMI) complicated by syncope and pulmonary hypertension, the patient
+    ultimately underwent successful VA-ECMO supported HR-PCI of the proximal LAD and proximal-to-mid RCA
+    using rotational atherectomy.</p>
+    <p><strong>Conclusions:</strong> This case highlights the effectiveness of VA-ECMO supported HR-PCI for patients with both
+    RV dysfunction and high-risk coronary anatomy requiring multi-vessel PCI with rotational atherectomy. VAECMO can be successfully used prophylactically for hemodynamic support during elective, HR-PCI. Further
+    investigation should focus on identifying the optimal support strategy for these high-risk cases with regards
+    to outcome, revascularization, and patient comfort.</p>
+    <p><strong>Keywords:</strong> Venoarterial, Extracorporeal membrane oxygenation, High-risk PCI</p>`
   },
   {
     'articleId': 2,
-    'articleTitle': 'Bailout Angiography-Guided Three-Dimensional Wiring for Intraprocedural Coronary Artery Occlusion: A Case Report',
-    'articleAbstract': `<p>We present a case of bailout for an intraprocedural coronary artery occlusion using three-dimensional (3D)
-    wiring, a technique that has been generally used for a chronic total occlusion (CTO).</p>
-    <p>The target vessel initially had antegrade flow; however, it was completely occluded after a guidewire entered
-    a dissection plane. Although the distal true lumen was visualized by collateral flow from the left circumflex
-    artery, these collaterals did not appear interventional for the retrograde approach. We manipulated the
-    Conquest Pro 12 guidewire according to 3D wiring theory on two orthogonal projections; the guidewire was
-    then crossed into the distal true lumen without expanding the dissection plane. After the wire course was
-    confirmed by intravascular ultrasonography, the target vessel was successfully stented with an excellent final
-    angiographic result.</p>
-    <p>When an iatrogenic coronary dissection caused by a guidewire occurs during percutaneous coronary
-    intervention, a careless wiring might cause inadvertent expansion of a false lumen.</p>
-    <p><strong>Keywords:</strong> Complications . Percutaneous coronary angioplasty . Coronary artery disease . Angina pectoris .
-    Coronary vessel.</p>`
+    'articleTitle': 'Failure of Computed Tomography Angiography to Detect a Large Fistula Connecting the Left Anterior Descending Artery to the Left Ventricle Circumflex Artery',
+    'articleAbstract': `<p>Coronary artery fistula (CAF) is a rare anomaly with an estimated prevalence of 0.002%. More specifically,
+    fistulas arising from the left anterior descending artery (LAD) constitute only 30%, and those draining into
+    the left circulation account for a mere 10%. It is important to detect and treat CAFs because they can cause
+    many serious complications. Coronary angiography has long been thought of as the reference standard for
+    imaging; however, it has become less widely used because it is relatively invasive, involves a risk of procedurerelated complications, and yields 2D images that often provide limited delineation of the complex anatomy of
+    abnormal communications. Computed tomography angiography (CTA) is a relatively new imaging tool that
+    yields higher spatiotemporal resolution and more precisely demonstrates the sites, origins, and termination
+    of abnormal blood vessels in 3D. Moreover, it is less invasive and involves a shorter acquisition time. Here,
+    we demonstrate a case of a 41-year-old male with no significant past medical, surgical, or family history
+    that presented as an outpatient with atypical chest pain and had a positive nuclear stress test. The patient
+    subsequently underwent left heart catheterization, which revealed a fistula between the LAD and LV circumflex
+    artery; however, CTA failed to show any evidence of a fistula.</p>
+    <p><strong>Keywords:</strong> Coronary artery fistula, Computed tomography angiography</p>`
   },
   {
     'articleId': 3,
@@ -170,5 +171,7 @@ export class ArticlesinpressComponent implements OnInit {
       }
     }
     console.log(this.articleContent)
-  }
+  
+}
+
 }

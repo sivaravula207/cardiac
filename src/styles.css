@@ -3,3 +3,22 @@
 
 html, body { height: 100%; font-family: "Roboto" }
 body { margin: 0; font-family: "Roboto", "Helvetica Neue", sans-serif; }
+
+a {
+    color: #007bff;
+    text-decoration: none !important;
+    background-color: transparent;
+
+}
+.blueColor{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 500 !important;
+}
+
+.table .thead-dark th{
+    color: #fff !important;
+    background-color: #17A2B8 !important;
+    border-color: #17A2B8 !important;
+}
